@@ -14,7 +14,7 @@ const Contact = () => {
     setLoading(true);
     try {
       const { data } = await axios.post(
-        "pallavi-backend-production.up.railway.app",
+        "https://pallavi-backend-production.up.railway.app",
         {
           name,
           email,
